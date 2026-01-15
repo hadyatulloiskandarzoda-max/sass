@@ -13,6 +13,7 @@
     --color-blue-500: oklch(62.3% 0.214 259.815);
     --color-blue-600: oklch(54.6% 0.245 262.881);
     --color-blue-700: oklch(48.8% 0.243 264.376);
+    --color-blue-900: oklch(37.9% 0.146 265.522);
     --color-gray-300: oklch(87.2% 0.01 258.338);
     --color-gray-400: oklch(70.7% 0.022 261.325);
     --color-gray-500: oklch(55.1% 0.027 264.364);
@@ -276,6 +277,9 @@
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
   }
+  .mb-16 {
+    margin-bottom: calc(var(--spacing) * 16);
+  }
   .mb-20 {
     margin-bottom: calc(var(--spacing) * 20);
   }
@@ -305,6 +309,9 @@
   }
   .h-\[00px\] {
     height: 00px;
+  }
+  .h-\[200px\] {
+    height: 200px;
   }
   .h-\[300px\] {
     height: 300px;
@@ -354,6 +361,9 @@
   .w-\[4px\] {
     width: 4px;
   }
+  .w-\[30px\] {
+    width: 30px;
+  }
   .w-\[40px\] {
     width: 40px;
   }
@@ -368,6 +378,9 @@
   }
   .w-\[300px\] {
     width: 300px;
+  }
+  .w-\[350px\] {
+    width: 350px;
   }
   .w-\[400px\] {
     width: 400px;
@@ -455,6 +468,9 @@
   .flex-col-reverse {
     flex-direction: column-reverse;
   }
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
   .items-center {
     align-items: center;
   }
@@ -472,6 +488,12 @@
   }
   .gap-6 {
     gap: calc(var(--spacing) * 6);
+  }
+  .gap-7 {
+    gap: calc(var(--spacing) * 7);
+  }
+  .gap-8 {
+    gap: calc(var(--spacing) * 8);
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
@@ -563,6 +585,30 @@
   }
   .bg-\[url\(\'\.\/index\.htmsrc\/bf8a40060807c258cf8e59f06ca2bac424b8729c\.jpg\'\)\] {
     background-image: url('./index.htmsrc/bf8a40060807c258cf8e59f06ca2bac424b8729c.jpg');
+  }
+  .bg-\[url\(\'\.\/p1\'\)\] {
+    background-image: url('./p1');
+  }
+  .bg-\[url\(\'\.\/p1\.p\'\)\] {
+    background-image: url('./p1.p');
+  }
+  .bg-\[url\(\'\.\/p1\.png\'\)\] {
+    background-image: url('./p1.png');
+  }
+  .bg-\[url\(\'\.\/p2\.png\'\)\] {
+    background-image: url('./p2.png');
+  }
+  .bg-\[url\(\'\.\/p3\.png\'\)\] {
+    background-image: url('./p3.png');
+  }
+  .bg-\[url\(\'\.\/p4\.png\'\)\] {
+    background-image: url('./p4.png');
+  }
+  .bg-\[url\(\'\.\/p5\.png\'\)\] {
+    background-image: url('./p5.png');
+  }
+  .bg-\[url\(\'\.\/p6\.png\'\)\] {
+    background-image: url('./p6.png');
   }
   .bg-\[url\(\.\/\)\] {
     background-image: url(./);
@@ -703,6 +749,9 @@
   .text-blue-700 {
     color: var(--color-blue-700);
   }
+  .text-blue-900 {
+    color: var(--color-blue-900);
+  }
   .text-gray-300 {
     color: var(--color-gray-300);
   }
@@ -748,6 +797,11 @@
   .md\:block {
     @media (width >= 48rem) {
       display: block;
+    }
+  }
+  .md\:flex {
+    @media (width >= 48rem) {
+      display: flex;
     }
   }
   .md\:h-\[350px\] {
